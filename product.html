@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resumate - Product</title>
+  <style>
+    body {
+      background-image: url(_\ copy.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #2c3e50;
+    }
+    header {
+      background-color: #34495e;
+      color: #ecf0f1;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 7px rgba(0,0,0,0.12);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 1.8px;
+    }
+    nav {
+      background-color: #2c3e50;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      color: #ecf0f1;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #2980b9;
+    }
+    nav a.active {
+      background-color: #2980b9;
+    }
+    main {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap: 30px;
+    }
+    .product-card {
+      
+      background-color: #ecf0f1;
+      border-radius: 8px;
+      padding: 25px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+    .product-card h3 {
+      
+      border: #555;
+      margin-top: 0;
+      color: #34495e;
+      font-size: 1.7rem;
+      margin-bottom: 15px;
+    }
+    .product-card p {
+      
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      background-color: #2980b9;
+      color: #fff;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+    .btn-primary:hover {
+      background-color: #1c5980;
+    }
+    footer {
+      background-color: #34495e;
+      color: #bdc3c7;
+      text-align: center;
+      padding: 20px;
+      margin-top: 350px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Product</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="resources.html">Resources</a>
+    <a href="product.html" class="active">Product</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="product-card">
+      <h3>Resume Builder</h3>
+      <p>Easy drag-and-drop templates to build stunning resumes quickly.</p>
+      <a href="https://www.resume-now.com/lp/rnarsmsm121?utm_source=google&utm_medium=sem&utm_campaign=20457377013&utm_term=resume%20builder%20free&network=g&device=c&adposition=&adgroupid=152901483256&placement=&adid=687406880075&gad_source=1&gad_campaignid=20457377013&gbraid=0AAAAADEP8E6w_Ydr3GPHubRLR0vDpziki&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfikBSzy01h-qYUfewagCJA5Oz-rYZAUa01iaa7bPuiZSoCTFlShSgEaAkO3EALw_wcB" class="btn-primary">Get Started</a>
+    </div>
+    <div class="product-card">
+      <h3>Cover Letter Maker</h3>
+      <p>Create personalized cover letters that match your resume style.</p>
+      <a href="https://zety.com/cover-letter-builder" class="btn-primary">Create Now</a>
+    </div>
+    <div class="product-card">
+      <h3>Interview Prep Tool</h3>
+      <p>Practice common questions and get tips to nail your interview.</p>
+      <a href="https://www.linkedin.com/pulse/27-most-common-job-interview-questions-answers-jeff-haden/" class="btn-primary">Learn More</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Resumate. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

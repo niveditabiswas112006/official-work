@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resumate - Home</title>
+  <style>
+  
+
+    header, nav, main, footer {
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  background-color: rgba(52, 73, 94, 0.85);
+  color: #ecf0f1;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #bdc3c7;
+}
+.videobackground {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+   }
+   
+   .bg-video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+
+nav {
+  background-color: rgba(44, 62, 80, 0.85);
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #ecf0f1;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+}
+
+nav a.active {
+  background-color: #2980b9;
+}
+
+main {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+main p {
+  row-gap: 20px;
+  font-size:x-large;
+  /* font-size: 1.1rem; */
+  line-height: 1.6;
+  color: #eee;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 40px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #1c5980;
+}
+
+footer {
+  background-color: rgba(52, 73, 94, 0.85);
+  color: #bdc3c7;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>Welcome to Resumate</h1>
+    <p>Your ultimate Resume & CV Builder solution</p>
+  </header>
+
+  
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="resources.html">Resources</a>
+    <a href="product.html">Product</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+   <!-- <div class="video-container">
+  <video autoplay muted loop id="bg-video">
+    <source src="/Users/niveditabiswas/Desktop/WhatsApp Video 2025-05-16 at 10.51.22 AM.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>  -->
+<div class="videobackground">
+  <video class="bg-video" autoplay muted loop>
+    <source src="bgvid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay"></div>
+  <main>
+    <h2>Build Your Dream Resume Effortlessly</h2>
+    <p>Create professional resumes tailored to your career goals with our easy-to-use templates and expert tips. Whether you’re just starting or looking to advance, Resumate has your back.</p>
+    <a href="solutions.html" class="btn-primary">Explore Solutions</a>
+  </main>
+</div>
+  <footer>
+    <p>&copy; 2025 Resumate. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
