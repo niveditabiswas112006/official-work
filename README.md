@@ -1,2 +1,2 @@
 # Resumate
-Resumate builder🚀
+Resume/cv builder🚀
